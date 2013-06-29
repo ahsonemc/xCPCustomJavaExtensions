@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsJavaModule:JavaModule xmlns:nsJavaModule="http://xcp.emc.com/javamodule" urn="urn:testbed:com.emc.xcp.artifact.javamodule.category:Artifacts/Java Modules/RunDQL.javamodule" categoryId="com.emc.xcp.artifact.javamodule.category" name="RunDQL" label="Run DQL" implementationClass="com.emc.xcp2.ahson.dqlrunner.RunDQL">
+	<implementationJars contentPath="content/modules/runDQL.jar"/>
+</nsJavaModule:JavaModule>

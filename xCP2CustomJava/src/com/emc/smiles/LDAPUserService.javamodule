@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsJavaModule:JavaModule xmlns:nsJavaModule="http://xcp.emc.com/javamodule" 
+	urn="urn:ldapsvc:com.emc.xcp.artifact.javamodule.category:Artifacts/Java Modules/LDAPUserService.javamodule" 
+	categoryId="com.emc.xcp.artifact.javamodule.category" 
+	name="LDAPUserServices" 
+	label="LDAP User Services" 
+	implementationClass="com.emc.smiles.LDAPUserServices">
+	<implementationJars contentPath="content/modules/ldapUserServices.jar"/>
+	<implementationJars contentPath="content/modules/jdbcLdap.jar"/>
+	<implementationJars contentPath="content/modules/ldap.jar"/>
+</nsJavaModule:JavaModule>

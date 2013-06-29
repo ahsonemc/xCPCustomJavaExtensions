@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsJavaModule:JavaModule xmlns:nsJavaModule="http://xcp.emc.com/javamodule" 
+	urn="urn:restsvc:com.emc.xcp.artifact.javamodule.category:Artifacts/Java Modules/InvokeRESTfulService.javamodule" 
+	categoryId="com.emc.xcp.artifact.javamodule.category" 
+	name="InvokeRESTfulService" 
+	label="Invoke RESTful Service" 
+	implementationClass="com.emc.smiles.InvokeRESTfulService">
+	<implementationJars contentPath="content/modules/invokeRESTfulService.jar"/>
+	<implementationJars contentPath="content/modules/resty-0.3.1.jar"/>
+</nsJavaModule:JavaModule>

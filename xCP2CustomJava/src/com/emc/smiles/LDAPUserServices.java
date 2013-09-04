@@ -15,7 +15,7 @@ public class LDAPUserServices {
 		java.sql.Connection con = null;
 		try {
 			DriverManager.registerDriver(new com.octetstring.jdbcLdap.sql.JdbcLdapDriver());
-			con = DriverManager.getConnection(ldapConnectString, "CN=Mohen\\, Michael,OU=IaaS Accounts,OU=US Security,DC=corp,DC=emc,DC=com", "Ia57vM5znb");
+			con = DriverManager.getConnection(ldapConnectString, "CN=Mohen\\, Michael,OU=IaaS Accounts,OU=US Security,DC=corp,DC=emc,DC=com", "XXX");
 			Statement s = con.createStatement();
 			String sql = "SELECT sAMAccountName, sn, givenName, co, physicalDeliveryOfficeName, postalCode, st, title, streetAddress, division, department, telephoneNumber, manager, mail FROM subTreeScope;DC=corp,DC=emc,DC=com WHERE sAMAccountName='"+corpid+"'";
 			s.executeQuery(sql);
